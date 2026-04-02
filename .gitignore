@@ -1,0 +1,16 @@
+﻿# Environment variables — keep credentials safe
+.env
+
+# Dependencies
+node_modules/
+
+# Generated spec files
+.features-gen/
+
+# Test results and reports
+test-results/
+playwright-report/
+reports/
+
+# Excel files (optional - remove if you want them in git)
+# testdata/*.xlsx
