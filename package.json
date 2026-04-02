@@ -2,15 +2,21 @@
   "name": "playwright-bdd-cucumber",
   "version": "1.0.0",
   "description": "BDD Testing with Playwright + Cucumber.js",
-  "scripts": {
-    "test": "bddgen && playwright test",
-    "test:headed": "bddgen && playwright test --headed",
-    "test:chrome": "bddgen && playwright test --project=chromium",
-    "test:firefox": "bddgen && playwright test --project=firefox",
-    "test:safari": "bddgen && playwright test --project=webkit",
-    "test:report": "playwright show-report",
-    "test:debug": "bddgen && playwright test --debug"
-  },
+"scripts": {
+  "test":            "bddgen && playwright test",
+  "test:headed":     "bddgen && playwright test --headed",
+  "test:report":     "playwright show-report",
+  "test:debug":      "bddgen && playwright test --debug",
+
+  "test:chrome":     "bddgen && playwright test --project=chromium --grep-invert \"@bug\"",
+  "test:firefox":    "bddgen && playwright test --project=firefox --grep-invert \"@bug\"",
+  "test:safari":     "bddgen && playwright test --project=webkit --grep-invert \"@bug\"",
+
+  "allure:generate": "allure generate allure-results --clean -o allure-report",
+  "allure:open":     "allure open allure-report",
+  "allure:serve":    "allure serve allure-results",
+  "test:allure":     "bddgen && playwright test --grep-invert \"@bug\" && allure generate allure-results --clean -o allure-report && allure open allure-report"
+},
   "cucumber": {
     "default": {
       "features": "features/**/*.feature",
@@ -30,10 +36,16 @@
   "devDependencies": {
     "@cucumber/cucumber": "^10.3.1",
     "@playwright/test": "^1.44.0",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.6.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
     "multiple-cucumber-html-reporter": "^3.7.0",
     "playwright": "^1.44.0",
-    "playwright-bdd": "^8.5.0"
+    "playwright-bdd": "^8.5.0",
+     "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
