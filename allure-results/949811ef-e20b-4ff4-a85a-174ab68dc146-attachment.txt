@@ -1,2 +1,0 @@
-
-📊 Excel row: invalid_user_valid_pass | User: invalid@@user

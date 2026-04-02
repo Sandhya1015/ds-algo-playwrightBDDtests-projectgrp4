@@ -1,4 +1,8 @@
-﻿# Environment variables — keep credentials safe
+﻿# Allure
+allure-results/
+allure-report/
+
+# Environment variables
 .env
 
 # Dependencies
@@ -11,6 +15,3 @@ node_modules/
 test-results/
 playwright-report/
 reports/
-
-# Excel files (optional - remove if you want them in git)
-# testdata/*.xlsx

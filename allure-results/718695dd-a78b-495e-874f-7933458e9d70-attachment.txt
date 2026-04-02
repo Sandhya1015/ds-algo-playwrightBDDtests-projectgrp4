@@ -1,3 +1,0 @@
-
-📊 Sign out test — logging in as: bunny@189.com
-URL after login: https://dsportalapp.herokuapp.com/home

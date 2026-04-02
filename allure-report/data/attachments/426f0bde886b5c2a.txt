@@ -1,5 +1,0 @@
-
-📊 Logging in as: bunny@189.com
-✅ Logged in — on Home page
-Array page URL: https://dsportalapp.herokuapp.com/array/
-Array page URL: https://dsportalapp.herokuapp.com/array/
