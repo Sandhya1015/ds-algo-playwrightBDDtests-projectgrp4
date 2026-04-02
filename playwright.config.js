@@ -13,11 +13,14 @@ module.exports = defineConfig({
   retries:       1,
   fullyParallel: false,
 
-  reporter: [
-    ['html', { outputFolder: 'playwright-report' }],
-    ['list'],
-  ],
-
+ reporter: [
+  ['list'],
+  ['allure-playwright', {
+    detail: true,
+    outputFolder: 'allure-results',
+    suiteTitle: true,
+  }]
+],
   use: {
     baseURL:    process.env.BASE_URL || 'https://dsportalapp.herokuapp.com',
     headless:   process.env.HEADLESS !== 'false',

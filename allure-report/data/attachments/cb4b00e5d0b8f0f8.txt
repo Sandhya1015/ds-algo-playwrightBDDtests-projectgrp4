@@ -1,0 +1,10 @@
+
+📊 Logging in as: bunny@189.com
+✅ Logged in — on Home page
+Array page URL: https://dsportalapp.herokuapp.com/array/
+Practice/Question page URL: https://dsportalapp.herokuapp.com/question/1
+Page text sample: QUESTION
+
+Write a Python Program to check if an element is present in the input array.
+
+Define a fun

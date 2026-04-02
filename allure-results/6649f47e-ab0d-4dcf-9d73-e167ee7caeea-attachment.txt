@@ -1,0 +1,13 @@
+
+📊 Logging in as: bunny@189.com
+✅ Logged in — on Home page
+Array page URL: https://dsportalapp.herokuapp.com/array/
+Practice/Question page URL: https://dsportalapp.herokuapp.com/array/practice
+Page text sample: NumpyNinja
+Data Structures
+Bunny@189.com Sign out
+
+
+Search the array
+Max Consecutive Ones
+Find Numbe

@@ -68,19 +68,18 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo 'Pipeline finished.'
-            archiveArtifacts artifacts: 'reports/**/*', allowEmptyArchive: true
-            publishHTML(target: [
-                allowMissing         : false,
-                alwaysLinkToLastBuild: true,
-                keepAll              : true,
-                reportDir            : 'reports/html',
-                reportFiles          : 'index.html',
-                reportName           : 'BDD Cross Browser Report'
-            ])
-        }
+   post {
+    always {
+        echo 'Pipeline finished.'
+        archiveArtifacts artifacts: 'reports/**/*', allowEmptyArchive: true
+    }
+    success {
+        echo 'All Tests Passed!'
+    }
+    failure {
+        echo 'Tests Failed - check the report!'
+    }
+}
         success {
             echo '✅ All Tests Passed!'
         }

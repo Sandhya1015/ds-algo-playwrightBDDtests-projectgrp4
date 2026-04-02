@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - link "NumpyNinja" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e5]:
+      - link "Data Structures" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: "#"
+          - link "Bunny@189.com" [ref=e13] [cursor=pointer]:
+            - /url: ""
+          - link "Sign out" [ref=e14] [cursor=pointer]:
+            - /url: /logout
+  - generic [ref=e15]:
+    - heading "Data Structures-Introduction" [level=4] [ref=e16]
+    - paragraph
+    - paragraph [ref=e17]:
+      - strong [ref=e18]: What are Data structures
+      - text: "?"
+    - paragraph [ref=e19]: A Data structure is a way to store, organize, and manage information(or data) in a way that allows the programmer to easily access or modify the values in them.
+    - paragraph [ref=e20]:
+      - strong [ref=e21]: "Purpose of Data structure:"
+    - paragraph [ref=e22]: It is the way of organizing data on a computer so that it can be used effectively.
+    - paragraph [ref=e23]:
+      - strong [ref=e24]: Use of basic Data Structures
+      - text: ":"
+    - paragraph [ref=e25]: 1.Password databases
+    - paragraph [ref=e26]: 2. Online directories
+    - paragraph [ref=e27]:
+      - strong [ref=e28]: Advanced-Data Structures
+    - paragraph [ref=e29]: 1 undo/Redo function
+    - paragraph [ref=e30]: 2, Spell check
+    - paragraph [ref=e31]: 3. text searching
+    - paragraph [ref=e32]: "Examples are: Google maps, Autocomplete function"
+    - paragraph
+    - paragraph [ref=e33]: Topics Covered
+    - list [ref=e34]:
+      - link "Time Complexity" [ref=e35] [cursor=pointer]:
+        - /url: time-complexity
+```

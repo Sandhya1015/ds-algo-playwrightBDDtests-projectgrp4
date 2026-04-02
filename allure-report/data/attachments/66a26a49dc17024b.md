@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - link "NumpyNinja" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e5]:
+      - link "Data Structures" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: "#"
+          - link "Bunny@189.com" [ref=e13] [cursor=pointer]:
+            - /url: ""
+          - link "Sign out" [ref=e14] [cursor=pointer]:
+            - /url: /logout
+  - generic [ref=e15]:
+    - heading "Array" [level=4] [ref=e16]
+    - paragraph
+    - paragraph [ref=e17]: Arrays are among the oldest and most important data structures, and are used by almost every program. They are also used to implement many other data structures, such as lists and strings.
+    - paragraph [ref=e18]: They effectively exploit the addressing logic of computers. In most modern computers and many external storage devices, the memory is a one-dimensional array of words, whose indices are their addresses.
+    - paragraph [ref=e19]: Processors, especially vector processors, are often optimized for array operations. Array is a data structure which is of fixed capacity and can store collection of elements. In array , the elements are stored in consecutive memory location.
+    - paragraph [ref=e20]: The term array is often used to mean array data type, a kind of data type provided by most high-level programming languages that consists of a collection of values or variables that can be selected by one or more indices computed at run-time. Array types are often implemented by array structures; however, in some languages they may be implemented by hash tables, linked lists, search trees, or other data structures. In this module, we can see how we implement array data structures and problems using list in Python.
+    - paragraph
+    - paragraph [ref=e21]: Topics Covered
+    - list [ref=e22]:
+      - link "Arrays in Python" [ref=e23] [cursor=pointer]:
+        - /url: arrays-in-python
+    - list [ref=e24]:
+      - link "Arrays Using List" [ref=e25] [cursor=pointer]:
+        - /url: arrays-using-list
+    - list [ref=e26]:
+      - link "Basic Operations in Lists" [ref=e27] [cursor=pointer]:
+        - /url: basic-operations-in-lists
+    - list [ref=e28]:
+      - link "Applications of Array" [ref=e29] [cursor=pointer]:
+        - /url: applications-of-array
+```
